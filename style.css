@@ -51,10 +51,12 @@ div.display{
 .result {
     font-size: 64px;
     color: #f2f2f2;
+    text-overflow: wrap;
 }
 
 .calculation, .clear {
     color: #7464b6;
+    height: 20px;
 }
 
 .calculation {
