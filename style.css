@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +8,97 @@
 
 body {
     background-color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Share Tech', sans-serif;
 }
 
 /* HEADER */
 
 header {
     text-align: center;
+    margin: 32px auto;
 }
 
 /* MAIN */
 
 main{
+    color: #f2f2f3;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section.calculator {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 800px;
+    background-color: #2f2a39;
+}
+
+div.display{
+    margin-right: 16px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.result {
+    font-size: 64px;
+    color: #f2f2f2;
+}
+
+.calculation, .clear {
+    color: #7464b6;
+}
+
+.calculation {
+    font-size: 18px;
+}
+
+div.numpad {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -100px; */
+}
+
+div.row {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+
+button {
+    border: none;
+    font-size: 24px;
+    background-color: inherit;
+    color: inherit;
+    width: 70px;
+    font-family: inherit;
+}
+
+button.operator {
+    color: #303030;
+    width: 70px;
+    height: 70px;
+    background-color: #bfbfc1;
+    border-radius: 50%;
+}
+
+#equals {
+    background-color: #7c5efe;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin: 32px auto;
+    font-size: 20px;
 }

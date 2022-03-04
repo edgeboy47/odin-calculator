@@ -2,7 +2,7 @@
 
 Calculator assignment for [The Odin Project](https://www.theodinproject.com/)
 
-[Live Preview]()
+[Live Preview](https://edgeboy47.github.io/odin-calculator/)
 
 ### Skills Used
 - HTML

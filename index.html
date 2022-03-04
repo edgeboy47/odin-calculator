@@ -14,15 +14,15 @@
     <main>
       <section class="calculator">
         <div class="display">
-          <div class="result"></div>
-          <div class="calculation"></div>
+          <div class="result">195</div>
+          <div class="calculation">125 + 80 - 10</div>
         </div>
         <div class="numpad">
           <div class="row">
             <button class="clear">AC</button>
             <button>+/-</button>
             <button>%</button>
-            <button>&div;</button>
+            <button class="operator">&div;</button>
           </div>
           <div class="row">
             <button class="operand">7</button>
@@ -45,12 +45,18 @@
           <div class="row">
             <button class="operand">0</button>
             <button class="operand">.</button>
+            <button class="operand"></button>
             <button class="operator" id="equals">=</button>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      View the source on
+      <a target="_blank" href="https://github.com/edgeboy47/odin-calculator"
+        >Github</a
+      >
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
